@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:mydb
+    url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: adnub
     driverClassName: org.postgresql.Driver
