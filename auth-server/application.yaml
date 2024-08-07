@@ -1,16 +1,12 @@
 spring:
   datasource:
     url: jdbc:h2:mem:mydb
-    username: user
-    password: password
-    driverClassName: org.h2.Driver
+    username: postgres
+    password: adnub
+    driverClassName: org.postgresql.Driver
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    defer-datasource-initialization: true
-    ddl-auto: create
-  h2:
-    console:
-      enabled: true
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    ddl-auto: create-drop
   security:
     user:
       name: user
