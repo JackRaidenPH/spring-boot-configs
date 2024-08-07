@@ -4,6 +4,7 @@ spring:
     username: postgres
     password: admin
     driverClassName: org.postgresql.Driver
+    continue-on-error: true
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
