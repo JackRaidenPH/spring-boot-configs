@@ -10,3 +10,6 @@ spring:
       postQueue: addPostQueue
     exchange:
       postExchange: miniposter.post
+
+auth-server:
+  url: 'http://localhost:8001'
