@@ -17,6 +17,12 @@ spring:
     host: localhost
     username: guest
     password: guest
+    queue:
+      postQueue: addPostQueue
+      analyticsQueue: addAnalyticsRecordQueue
+    exchange:
+      postExchange: miniposter.post
+      analyticsExchange: miniposter.analytics
 
 server:
   port: 8002
