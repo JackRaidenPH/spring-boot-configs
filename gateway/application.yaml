@@ -1,2 +1,12 @@
 server:
   port: 8000
+
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    queue:
+      postQueue: addPostQueue
+    exchange:
+      postExchange: miniposter.post
