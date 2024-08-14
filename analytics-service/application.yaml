@@ -17,6 +17,9 @@ spring:
     host: localhost
     username: guest
     password: guest
+    queue:
+      analyticsQueue: addAnalyticsRecordQueue
+
 
 server:
   port: 8003
