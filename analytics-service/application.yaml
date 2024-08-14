@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MiniposterAnalyticsDatabase
+    username: miniposter
+    password: miniposter_password
+    driverClassName: org.postgresql.Driver
+    continue-on-error: true
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      name: user
+      password: password
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+
+server:
+  port: 8003
