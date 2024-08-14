@@ -7,10 +7,8 @@ spring:
     continue-on-error: true
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: true
     hibernate:
       ddl-auto: update
-      format_sql: true
   security:
     user:
       name: user
