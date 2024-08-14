@@ -20,6 +20,5 @@ spring:
     queue:
       analyticsQueue: addAnalyticsRecordQueue
 
-
 server:
   port: 8003
