@@ -14,7 +14,7 @@ spring:
       name: user
       password: password
   rabbitmq:
-    host: localhost
+    host: ${RABBITMQ_HOSTNAME}
     username: guest
     password: guest
     queue:
