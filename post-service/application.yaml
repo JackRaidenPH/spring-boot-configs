@@ -25,7 +25,7 @@ spring:
       analyticsExchange: miniposter.analytics
 
 post:
-  maxLength: 250
+  maxLength: ${MAX_POST_LENGTH}
 rest:
   checkBadWordsURL: ${FILTER_SERVICE_URI}
 
