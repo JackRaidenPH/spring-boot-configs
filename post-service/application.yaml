@@ -27,7 +27,7 @@ spring:
 post:
   maxLength: 250
 rest:
-  checkBadWordsURL: 'http://filter-service:8004'
+  checkBadWordsURL: ${FILTER_SERVICE_URI}
 
 server:
   port: 8002

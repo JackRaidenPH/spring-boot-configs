@@ -12,4 +12,4 @@ spring:
       postExchange: miniposter.post
 
 auth-server:
-  url: 'http://auth-server:8001'
+  url: ${AUTH_SERVER_URI}
