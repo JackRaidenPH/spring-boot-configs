@@ -13,3 +13,8 @@ spring:
 
 auth-server:
   url: ${AUTH_SERVER_URI}
+redirect:
+    auth-server-url: ${AUTH_SERVER_URI}
+    analytics-service-url: ${ANALYTICS_SERVICE_URL}
+    post-service-url: ${POST_SERVICE_URL}
+    filter-service-url: ${FILTER_SERVICE_URL}
