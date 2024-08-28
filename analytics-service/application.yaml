@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/MiniposterAnalyticsDatabase
-    username: miniposter
-    password: miniposter_password
+    url: jdbc:postgresql://localhost:5432/miniposterdb
+    username: postgres
+    password: postgres
     driverClassName: org.postgresql.Driver
     continue-on-error: true
   jpa:

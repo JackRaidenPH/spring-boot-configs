@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/MiniposterAuthDatabase
-    username: miniposter
-    password: miniposter_password
+    url: jdbc:postgresql://localhost:5432/miniposterdb
+    username: postgres
+    password: postgres
     driverClassName: org.postgresql.Driver
     continue-on-error: true
   jpa:
@@ -18,5 +18,5 @@ server:
   port: 8001
 
 rsa:
-  publicKeyLocation: "auth-server/public_key"
-  privateKeyLocation: "auth-server/private_key"
+  publicKeyLocation: "${KEYS_PATH}/public_key.rsa"
+  privateKeyLocation: "${KEYS_PATH}/private_key.rsa"
