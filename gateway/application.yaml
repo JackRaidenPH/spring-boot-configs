@@ -3,7 +3,7 @@ server:
 
 spring:
   rabbitmq:
-    host: localhost
+    host: ${RABBITMQ_HOSTNAME}
     username: guest
     password: guest
     queue:
