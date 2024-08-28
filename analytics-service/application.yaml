@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/miniposterdb
+    url: jdbc:postgresql://${DATABASE_URI}/${DATABASE_NAME}
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
